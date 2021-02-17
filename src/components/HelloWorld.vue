@@ -18,7 +18,7 @@
         Laurens van der Bilt
       </v-card-title>
       <v-card-text>
-        My name is Laurens van der Bilt
+        I am a skilled programmer with a nack for front-end work.
       </v-card-text>
     </v-col>
   </v-row>
@@ -31,8 +31,7 @@ export default {
 
   data () {
     return {
-      test: 'test',
-      src: '/profile.jpg'
+      test: 'test'
     }
   },
   mounted () {
