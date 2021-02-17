@@ -1,6 +1,8 @@
 <template>
   <div>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <v-row>
+      <HelloWorld/>
+    </v-row>
   </div>
 </template>
 
@@ -11,6 +13,11 @@ export default {
   name: 'Home',
   components: {
     HelloWorld
+  },
+  data () {
+    return {
+      test: 'test'
+    }
   }
 }
 </script>
