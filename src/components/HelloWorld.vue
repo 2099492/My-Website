@@ -14,7 +14,7 @@
           </v-avatar>
         </v-card>
       </v-col>
-      <v-col cols="4">
+      <v-col cols="5">
         <v-card-title style="font-size: 200%;">
           Laurens van der Bilt
         </v-card-title>
