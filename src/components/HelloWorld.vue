@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-row justify="center" class="mt-8">
-      <v-col cols="2" class="mr-4">
+      <v-col cols="3" class="mr-4">
         <v-card flat>
           <v-avatar
             class="profile"
@@ -22,31 +22,19 @@
           I am a learning programmer living in Amsterdam and studying at the bit-academy.
           My hobbies include programming, gaming and hanging out with friends.
         </v-card-text>
-<!--        <v-card-title>-->
-<!--          My skills include:-->
-<!--        </v-card-title>-->
-<!--        <h4>Coding languages:</h4>-->
-<!--        <v-list-item>-->
-<!--          <v-list-item-content>-->
-<!--            <v-card-text>-->
-<!--              JavaScript-->
-<!--            </v-card-text>-->
-<!--          </v-list-item-content>-->
-<!--        </v-list-item>-->
-<!--        <v-list-item>-->
-<!--          <v-list-item-content>-->
-<!--            <v-card-text>-->
-<!--              php-->
-<!--            </v-card-text>-->
-<!--          </v-list-item-content>-->
-<!--        </v-list-item>-->
-<!--        <v-list-item>-->
-<!--          <v-list-item-content>-->
-<!--            <v-card-text>-->
-<!--              HTML, CSS-->
-<!--            </v-card-text>-->
-<!--          </v-list-item-content>-->
-<!--        </v-list-item>-->
+        <v-card-title>
+          You van find me on:
+        </v-card-title>
+        <a href="https://www.linkedin.com/in/laurens-van-der-bilt/" class="pr-2">
+          <v-btn color="primary">
+            LinkedIn
+          </v-btn>
+        </a>
+        <a href="https://github.com/2099492">
+          <v-btn color="secondary">
+            GitHub
+          </v-btn>
+        </a>
       </v-col>
     </v-row>
   </div>
