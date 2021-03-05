@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-row justify="center" class="mt-8">
-      <v-col cols="3" class="mr-4">
+      <v-col cols="2" class="mr-4">
         <v-card flat>
           <v-avatar
             class="profile"
