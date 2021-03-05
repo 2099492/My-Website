@@ -23,7 +23,7 @@
           My hobbies include programming, gaming and hanging out with friends.
         </v-card-text>
         <v-card-title>
-          You van find me on:
+          You can find me on:
         </v-card-title>
         <a href="https://www.linkedin.com/in/laurens-van-der-bilt/" class="pr-2">
           <v-btn color="primary">
