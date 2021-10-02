@@ -1,7 +1,7 @@
 <template>
   <div class="pa-10">
     <v-row justify="center" align="center" class="mt-8">
-      <v-col cols="12" lg="2" class="ma-10">
+      <v-col cols="12" lg="2" align="start" class="ma-10">
         <v-card flat>
           <v-avatar
             class="profile"
@@ -14,7 +14,7 @@
           </v-avatar>
         </v-card>
       </v-col>
-      <v-col cols="12" lg="5">
+      <v-col cols="12" align="start" lg="5">
         <v-card flat>
           <v-card-title style="font-size: 200%;">
             Laurens van der Bilt
@@ -26,16 +26,18 @@
           <v-card-title>
             You can find me on:
           </v-card-title>
-          <a href="https://www.linkedin.com/in/laurens-van-der-bilt/" class="pr-2">
-            <v-btn color="primary">
-              LinkedIn
-            </v-btn>
-          </a>
-          <a href="https://github.com/2099492">
-            <v-btn color="secondary">
-              GitHub
-            </v-btn>
-          </a>
+          <div class="pl-4">
+            <a href="https://www.linkedin.com/in/laurens-van-der-bilt/" class="pr-2">
+              <v-btn color="primary">
+                LinkedIn
+              </v-btn>
+            </a>
+            <a href="https://github.com/2099492">
+              <v-btn color="secondary">
+                GitHub
+              </v-btn>
+            </a>
+          </div>
         </v-card>
       </v-col>
     </v-row>
