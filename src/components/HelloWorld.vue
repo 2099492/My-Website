@@ -1,7 +1,7 @@
 <template>
   <div class="ma-0 pa-0">
     <v-row justify="center" align="center" class="pa-10 ma-0">
-      <v-col cols="7" lg="2">
+      <v-col cols="12" lg="2">
         <v-card flat>
           <v-avatar
             class="profile"
@@ -14,7 +14,7 @@
           </v-avatar>
         </v-card>
       </v-col>
-      <v-col cols="7" lg="5">
+      <v-col cols="12" lg="5">
         <v-card flat>
           <v-card-text style="font-size: 200%; font-weight: bold; color: black">
             Laurens van der Bilt
