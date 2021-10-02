@@ -1,6 +1,6 @@
 <template>
   <div class="ma-0 pa-0">
-    <v-row justify="center" align="start" class="pa-10 ma-0">
+    <v-row justify="center" align="center" class="pa-10 ma-0">
       <v-col cols="7" lg="2">
         <v-card flat>
           <v-avatar
