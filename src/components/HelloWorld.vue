@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <v-row justify="center" class="mt-8">
-      <v-col cols="2" class="mr-4">
+  <div class="pa-10">
+    <v-row justify="center" align="center" class="mt-8">
+      <v-col cols="12" lg="2" class="ma-10">
         <v-card flat>
           <v-avatar
             class="profile"
@@ -14,27 +14,29 @@
           </v-avatar>
         </v-card>
       </v-col>
-      <v-col cols="5">
-        <v-card-title style="font-size: 200%;">
-          Laurens van der Bilt
-        </v-card-title>
-        <v-card-text style="font-size: 150%;">
-          I am a learning programmer living in Amsterdam and studying at the bit-academy.
-          My hobbies include programming, gaming and hanging out with friends.
-        </v-card-text>
-        <v-card-title>
-          You can find me on:
-        </v-card-title>
-        <a href="https://www.linkedin.com/in/laurens-van-der-bilt/" class="pr-2">
-          <v-btn color="primary">
-            LinkedIn
-          </v-btn>
-        </a>
-        <a href="https://github.com/2099492">
-          <v-btn color="secondary">
-            GitHub
-          </v-btn>
-        </a>
+      <v-col cols="12" lg="5">
+        <v-card flat>
+          <v-card-title style="font-size: 200%;">
+            Laurens van der Bilt
+          </v-card-title>
+          <v-card-text style="font-size: 150%;">
+            I am a learning programmer living in Amsterdam and studying at the bit-academy.
+            My hobbies include programming, gaming and hanging out with friends.
+          </v-card-text>
+          <v-card-title>
+            You can find me on:
+          </v-card-title>
+          <a href="https://www.linkedin.com/in/laurens-van-der-bilt/" class="pr-2">
+            <v-btn color="primary">
+              LinkedIn
+            </v-btn>
+          </a>
+          <a href="https://github.com/2099492">
+            <v-btn color="secondary">
+              GitHub
+            </v-btn>
+          </a>
+        </v-card>
       </v-col>
     </v-row>
   </div>
@@ -49,9 +51,6 @@ export default {
     return {
       test: 'test'
     }
-  },
-  mounted () {
-    console.log(this.test)
   }
 }
 </script>
