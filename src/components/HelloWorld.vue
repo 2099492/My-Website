@@ -1,7 +1,7 @@
 <template>
-  <div class="pa-10">
-    <v-row justify="center" align="center" no-gutters class="mt-8">
-      <v-col cols="12" lg="2" align="start" class="ma-10">
+  <div class="ma-0 pa-0">
+    <v-row justify="center" align="start" class="pa-10 ma-0">
+      <v-col cols="7" lg="2">
         <v-card flat>
           <v-avatar
             class="profile"
@@ -14,11 +14,11 @@
           </v-avatar>
         </v-card>
       </v-col>
-      <v-col cols="12" align="start" lg="5">
+      <v-col cols="7" lg="5">
         <v-card flat>
-          <v-card-title style="font-size: 200%;">
+          <v-card-text style="font-size: 200%; font-weight: bold; color: black">
             Laurens van der Bilt
-          </v-card-title>
+          </v-card-text>
           <v-card-text style="font-size: 150%;">
             I am a learning programmer living in Amsterdam and studying at the bit-academy.
             My hobbies include programming, gaming and hanging out with friends.
